@@ -57,7 +57,7 @@ img{
   margin-top: 5rem;
 }
 .bg-video{
-  background-color: rgba(0,0,0,.03);;
+  background-color: rgba(0,0,0,.03);
 }
 
 .video div video{
@@ -142,7 +142,18 @@ img{
 
 
 /* ---ESTILOS PAGES PRODUCTOS--- */
-
+.bor-serch{
+  border-radius: 200px;
+  width: 70vw;
+  margin: auto;
+  border: 1px solid rosybrown;
+}
+.btn-bor-serch{
+  border-radius: 200px;
+  border: 1px solid #000;
+  color: #000;
+}
+/* Banner productos */
 .bor{
   border: 1px solid #000;
 }
@@ -172,3 +183,144 @@ img{
   hsl(34deg 80% 77%) 100%
 );
 }
+
+.width-card{
+  width: 20rem;
+  height: auto;
+  border-radius: 20px;
+}
+
+.card-img{
+  border-radius: 20px;
+  padding: .3rem;
+}
+
+
+/* ESTILOS INFO */
+.bg-body{
+  background-image: linear-gradient(to left bottom, #ffeccc, #fbd9a1, #f7c677, #f1b34c, #eb9f12);
+}
+
+
+.bg-lii{
+  background-color: rgba(0,0,0,.09);
+  padding: .9rem;
+}
+
+.ms-4v{
+  margin-left: 2rem;
+}
+
+.bg-red{
+  background-color: #F24A72;
+}
+
+.bg-orange{
+  background-color: #FDAF75;
+}
+
+.list-type{
+  list-style-type: disc;
+}
+
+.marco{
+  border: 1px solid #000;
+}
+
+.a-info{
+  text-decoration: none;
+  color: #000;
+  border: 2px solid #F24A72;
+  padding: 1rem;
+}
+
+/* ESTILOS SOBRE MI */
+.mi-body{
+  background-image: url(../img/sobre_mi/fondomi.png);
+  background-size: 100%;
+}
+
+.bg-gg{
+  background-color: rgba(0,0,0,.09);
+}
+
+.bor-mi{
+  border: 1px solid #000;
+}
+
+.bg-anti{
+  background-color: rgba(0,0,0,.09);
+}
+
+/* ESTILOS CONTACTO */
+.title-contact{
+  width: 100%;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.personal-information{
+  line-height: 50px;
+  border-bottom: 1px solid #000;
+}
+
+.conteiner-form{
+  margin-top: 10rem;
+  width: 100%;
+}
+
+.conteiner-form__form{
+  width: 80%;
+  padding: 1rem;
+  gap: 40px;
+}
+
+
+.form-items select{
+  border: none;
+  padding: 1.5rem;
+  background: none;
+  outline: 1px solid #000000;
+  border-radius: 10px;
+}
+
+.form-items label{
+  font-size: 1.5em;
+  color: #f1d5b9;
+}
+
+.form-items input{
+  border: none;
+  padding: .5rem;
+  background: none;
+  outline: 1px solid #000000;
+  border-radius: 10px;
+  
+}
+
+.form-suscrip{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-suscrip label{
+  font-size: 1.2em;
+  margin-left: 1rem;
+}
+
+.form-suscrip input{
+  width: 15px;
+  height: 15px;
+}
+
+.btn-contact{
+  font-size: 1em;
+  width: 50%;
+  border: none;
+  border: 2px solid rgb(229, 197, 156);
+  background: rgb(f, f, f, .9);
+  padding: 1.2rem;
+  border-radius: 20px;
+  margin: auto;
+} 
