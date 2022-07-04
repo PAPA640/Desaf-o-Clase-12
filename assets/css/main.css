@@ -1,0 +1,44 @@
+.container-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  text-align: center;
+  margin-top: 5rem; }
+  .container-card img {
+    width: 250px;
+    height: 250px;
+    outline: 2px solid gray;
+    transition: all .5s; }
+  .container-card img:hover {
+    outline: 2px solid orange;
+    transform: scale(1.1, 1.1); }
+
+.bg-video {
+  background-color: rgba(0, 0, 0, 0.03); }
+
+.video {
+  background-image: url(../img/Img-index/Fondos/fondo4.png);
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 90vw;
+  border-radius: 50px;
+  margin-top: 5rem; }
+  .video video {
+    width: 70vw;
+    margin-bottom: 2rem; }
+  .video p {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5em; }
+  @media screen and (min-width: 800px) {
+    .video {
+      width: 80vw; }
+    .video video {
+      width: 50vw; } }
+  @media screen and (min-width: 1200px) {
+    .video {
+      width: 70vw; }
+    .video video {
+      width: 50vw; } }
