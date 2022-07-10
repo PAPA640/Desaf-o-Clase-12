@@ -1,0 +1,13 @@
+.card{
+    width: 300px;
+    height: 250px;
+    border: 1px solid grey;
+    color: blue;
+    text-align: center;
+}
+
+.card-show{
+    @extend .card;
+    outline: 2px solid orange;
+    color: black;
+}
