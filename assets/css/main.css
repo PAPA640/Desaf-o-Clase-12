@@ -56,3 +56,23 @@
 .card-show {
   outline: 2px solid orange;
   color: black; }
+
+/*Maps*/
+.btn--play {
+  background-color: #add8e6; }
+
+.btn--start {
+  background-color: #008000; }
+
+.btn--continue {
+  background-color: #ffff00; }
+
+.btn--end {
+  background-color: #ff0000; }
+
+/*MAPS GET*/
+.end-end {
+  color: #ff0000; }
+
+.fire {
+  color: #add8e6; }

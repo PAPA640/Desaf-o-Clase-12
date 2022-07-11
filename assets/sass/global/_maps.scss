@@ -1,0 +1,21 @@
+$buttons:(
+    play: #add8e6,
+    start: #008000,
+    continue: #ffff00,
+    end: #ff0000,
+);
+
+@each $pulsador, $color in $buttons {
+    .btn--#{$pulsador}{
+        background-color: $color;
+    }
+}
+
+/*MAPS GET*/
+.end-end{
+    color: map-get($buttons, end);
+}
+
+.fire{
+    color: map-get($buttons,  play);
+}
